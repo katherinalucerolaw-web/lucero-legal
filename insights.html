@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Insights | Lucero Legal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css?v=6">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="pb-20 md:pb-0 bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-slate-900 z-50">Lucero Legal<span class="text-gold">.</span></a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="firm.html" class="text-sm font-medium text-slate-600 hover:text-gold transition-colors">The Firm</a>
+                <a href="services/investment.html" class="text-sm font-medium text-slate-600 hover:text-gold transition-colors">Expertise</a>
+                <a href="insights.html" class="text-sm font-medium text-slate-900 font-bold transition-colors">Insights</a>
+                <a href="contact.html" class="bg-slate-900 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-slate-800 transition-all shadow-lg">Schedule Consultation</a>
+            </div>
+             <button id="mobile-menu-btn" class="md:hidden text-slate-900 z-50"><i data-lucide="menu" class="w-6 h-6"></i></button>
+        </div>
+        <div id="mobile-menu" class="fixed inset-0 bg-slate-900 z-40 transform translate-x-full transition-transform duration-300 md:hidden flex flex-col justify-center items-center space-y-8">
+            <a href="index.html" class="text-2xl text-white font-light hover:text-gold">Home</a>
+            <a href="contact.html" class="text-2xl text-gold font-medium">Contact Us</a>
+            <button id="close-menu" class="absolute top-6 right-6 text-white/50 hover:text-white"><i data-lucide="x" class="w-8 h-8"></i></button>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-16 bg-slate-50">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Legal Insights</h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto">Expert analysis on Argentine investment, property, and immigration law.</p>
+        </div>
+    </header>
+
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Article 1 -->
+                <article class="insight-card group cursor-pointer" onclick="alert('Full article content coming soon. Book a consultation for details.')">
+                    <div class="h-48 bg-slate-200 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-slate-900/10 group-hover:bg-slate-900/0 transition-all"></div>
+                        <!-- Placeholder Gradient -->
+                        <div class="w-full h-full bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center text-white/20">
+                            <i data-lucide="building" class="w-12 h-12"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-gold uppercase tracking-wider mb-2 block">Real Estate</span>
+                        <h2 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-gold transition-colors">Buying Property in Argentina: A 2026 Guide</h2>
+                        <p class="text-slate-600 text-sm mb-4">Understanding the role of the 'Escribano' and how to navigate cash closings safely.</p>
+                        <span class="text-slate-900 text-sm font-semibold flex items-center">Read More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i></span>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="insight-card group cursor-pointer" onclick="alert('Full article content coming soon.')">
+                     <div class="h-48 bg-slate-200 relative overflow-hidden">
+                        <div class="w-full h-full bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center text-white/20">
+                            <i data-lucide="dollar-sign" class="w-12 h-12"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-gold uppercase tracking-wider mb-2 block">Immigration</span>
+                        <h2 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-gold transition-colors">The 'Rentista' Visa Explained</h2>
+                        <p class="text-slate-600 text-sm mb-4">Updated income requirements for 2026 and how to prove foreign income sources.</p>
+                        <span class="text-slate-900 text-sm font-semibold flex items-center">Read More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i></span>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="insight-card group cursor-pointer" onclick="alert('Full article content coming soon.')">
+                     <div class="h-48 bg-slate-200 relative overflow-hidden">
+                        <div class="w-full h-full bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center text-white/20">
+                            <i data-lucide="briefcase" class="w-12 h-12"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-gold uppercase tracking-wider mb-2 block">Corporate</span>
+                        <h2 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-gold transition-colors">LLC vs. Argentine SA</h2>
+                        <p class="text-slate-600 text-sm mb-4">Tax implications and liability protection structures for foreign investors.</p>
+                        <span class="text-slate-900 text-sm font-semibold flex items-center">Read More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i></span>
+                    </div>
+                </article>
+
+            </div>
+            
+            <!-- Newsletter Signup -->
+            <div class="mt-20 bg-slate-900 rounded-2xl p-12 text-center">
+                <h3 class="text-2xl font-bold text-white mb-4">Stay Ahead of Regulatory Changes</h3>
+                <p class="text-slate-400 mb-8 max-w-xl mx-auto">Argentine law moves fast. Join our newsletter to receive critical updates for foreign investors.</p>
+                <form class="max-w-md mx-auto flex gap-4" onsubmit="event.preventDefault(); alert('Subscribed!');">
+                    <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border-none focus:ring-2 focus:ring-gold outline-none text-slate-900">
+                    <button type="submit" class="bg-gold text-white font-bold px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors">Subscribe</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 py-12 text-center text-sm border-t border-slate-900">
+        <p>&copy; 2026 Lucero Legal. <a href="index.html" class="text-white hover:text-gold">Return Home</a></p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMenu = document.getElementById('close-menu');
+        function toggleMenu() { mobileMenu.classList.toggle('translate-x-full'); }
+        mobileMenuButton.addEventListener('click', toggleMenu);
+        closeMenu.addEventListener('click', toggleMenu);
+    </script>
+</body>
+</html>

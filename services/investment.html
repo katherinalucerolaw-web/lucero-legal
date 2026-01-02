@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate & Fintech Law | Lucero Legal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../styles.css?v=6"> <!-- Relative path for CSS -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="pb-20 md:pb-0 bg-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="../index.html" class="text-2xl font-bold tracking-tight text-slate-900 z-50">Lucero Legal<span class="text-gold">.</span></a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="../firm.html" class="text-sm font-medium text-slate-600 hover:text-gold transition-colors">The Firm</a>
+                <a href="../index.html#services" class="text-sm font-medium text-slate-900 font-bold transition-colors">Services</a>
+                <a href="../contact.html" class="bg-slate-900 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-slate-800 transition-all shadow-lg">Schedule Consultation</a>
+            </div>
+             <!-- Mobile Menu Button -->
+             <button id="mobile-menu-btn" class="md:hidden text-slate-900 z-50"><i data-lucide="menu" class="w-6 h-6"></i></button>
+        </div>
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="fixed inset-0 bg-slate-900 z-40 transform translate-x-full transition-transform duration-300 md:hidden flex flex-col justify-center items-center space-y-8">
+            <a href="../index.html" class="text-2xl text-white font-light hover:text-gold">Home</a>
+            <a href="../contact.html" class="text-2xl text-gold font-medium">Contact Us</a>
+            <button id="close-menu" class="absolute top-6 right-6 text-white/50 hover:text-white"><i data-lucide="x" class="w-8 h-8"></i></button>
+        </div>
+    </nav>
+
+    <header class="pt-40 pb-20 bg-slate-50 border-b border-gray-200">
+        <div class="container mx-auto px-6">
+            <span class="text-gold font-bold uppercase tracking-widest text-sm mb-4 block">Practice Area</span>
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Corporate & Fintech Law</h1>
+            <p class="text-xl text-slate-600 max-w-3xl">Strategic counsel for foreign entities entering the Argentine market. We ensure your business is compliant, efficient, and structured for growth from Day 1.</p>
+        </div>
+    </header>
+
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="md:col-span-2 space-y-12">
+                    
+                    <!-- Content Block -->
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3">
+                            <i data-lucide="building-2" class="text-gold"></i> Business Formation (SAS, SA, SRL)
+                        </h2>
+                        <p class="text-slate-600 leading-relaxed mb-4">Choosing the right vehicle is critical. Whether you need the flexibility of a Simplified Joint Stock Company (SAS) or the robustness of a Corporation (SA), we guide you through the pros and cons of each structure regarding liability, tax implications, and repatriation of profits.</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-2 ml-4">
+                            <li>Drafting of Bylaws (Estatutos).</li>
+                            <li>Registration with the IGJ (Inspección General de Justicia).</li>
+                            <li>Fiscal domicile setup.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Content Block -->
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3">
+                            <i data-lucide="landmark" class="text-gold"></i> Banking, Fintech & Transfers
+                        </h2>
+                        <p class="text-slate-600 leading-relaxed mb-4">We possess deep expertise in the Argentine banking system. Having advised major <strong>Fintech companies</strong> on regulatory compliance, we know how to navigate the Central Bank (BCRA) communication "A" series regulations.</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-2 ml-4">
+                            <li>Structuring international capital inflows (CCL / MULC).</li>
+                            <li>Compliance for Crypto-asset service providers (PSAV).</li>
+                            <li>Opening corporate accounts for foreign-held structures.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Content Block -->
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3">
+                            <i data-lucide="scroll" class="text-gold"></i> Contracts & Commercial Law
+                        </h2>
+                        <p class="text-slate-600 leading-relaxed mb-4">We draft and review commercial contracts to protect your interests in local jurisdiction, including service agreements, employment contracts, and commercial leases.</p>
+                    </div>
+
+                </div>
+
+                <!-- Sidebar -->
+                <div class="md:col-span-1">
+                    <div class="bg-slate-900 text-white p-8 rounded-2xl sticky top-32">
+                        <h3 class="text-xl font-bold mb-4">Start Your Business</h3>
+                        <p class="text-slate-300 text-sm mb-6">Don't let bureaucracy stall your launch. Book a consultation to discuss the best structure for your investment.</p>
+                        <a href="../contact.html" class="block w-full text-center bg-gold text-white font-bold py-3 rounded-lg hover:bg-yellow-600 transition-colors">Book Consultation</a>
+                        <div class="mt-8 border-t border-slate-700 pt-6">
+                            <p class="font-bold mb-2 text-sm uppercase text-slate-400">Related Services</p>
+                            <a href="real-estate.html" class="block text-slate-300 hover:text-white py-1">Real Estate Law &rarr;</a>
+                            <a href="immigration.html" class="block text-slate-300 hover:text-white py-1">Immigration &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 py-12 text-center text-sm border-t border-slate-900">
+        <p>&copy; 2026 Lucero Legal. <a href="../index.html" class="text-white hover:text-gold">Return Home</a></p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMenu = document.getElementById('close-menu');
+        function toggleMenu() { mobileMenu.classList.toggle('translate-x-full'); }
+        mobileMenuButton.addEventListener('click', toggleMenu);
+        closeMenu.addEventListener('click', toggleMenu);
+    </script>
+</body>
+</html>

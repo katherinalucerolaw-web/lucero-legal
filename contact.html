@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Lucero Legal</title>
+    <meta name="description"
+        content="Contact Lucero Legal for a free consultation. Immigration, citizenship, real estate, and business law services in Buenos Aires, Argentina.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css?v=15">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="pb-24 md:pb-0 bg-white">
+
+    <!-- Top Bar -->
+    <div class="bg-slate-950 text-slate-400 text-xs py-2 hidden md:block border-b border-slate-800">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <span class="font-medium tracking-wide">Based in Buenos Aires | Serving International Clients
+                Worldwide</span>
+            <div class="flex gap-6">
+                <a href="mailto:klucerolegal@gmail.com"
+                    class="hover:text-white transition-colors flex items-center gap-1"><i data-lucide="mail"
+                        class="w-3 h-3"></i> klucerolegal@gmail.com</a>
+                <span class="text-white font-bold flex items-center gap-1"><i data-lucide="phone" class="w-3 h-3"></i>
+                    +54 9 11 3809-8088</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 w-full z-50 nav-sticky" id="navbar">
+        <div class="container mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2 group">
+                <div class="w-8 h-8 bg-navy text-gold rounded-lg flex items-center justify-center">
+                    <i data-lucide="scale" class="w-5 h-5"></i>
+                </div>
+                <div
+                    class="text-xl font-serif font-bold text-slate-900 tracking-tight leading-none group-hover:text-gold transition-colors">
+                    LUCERO <br><span class="text-xs font-sans font-medium tracking-widest text-gold block">LEGAL</span>
+                </div>
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="about.html"
+                    class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">About</a>
+                <a href="team.html"
+                    class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">Team</a>
+                <a href="resources.html"
+                    class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">Resources</a>
+                <a href="faq.html" class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">FAQ</a>
+                <a href="contact.html" class="btn-navy text-sm py-2.5 px-6 rounded-full">Contact</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-slate-900 z-50 p-2"><i data-lucide="menu"
+                    class="w-7 h-7"></i></button>
+        </div>
+        <div id="mobile-menu"
+            class="fixed inset-0 bg-slate-900 z-40 transform translate-x-full transition-transform duration-300 md:hidden flex flex-col pt-24 px-8 space-y-4 overflow-y-auto">
+            <a href="index.html" class="text-xl text-white font-serif border-b border-slate-700 pb-2">Home</a>
+            <a href="contact.html" class="text-xl text-gold font-serif border-b border-slate-700 pb-2">Contact</a>
+            <button id="close-menu" class="absolute top-6 right-6 text-white p-2"><i data-lucide="x"
+                    class="w-8 h-8"></i></button>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="pt-32 pb-16 bg-slate-50 border-b border-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <span class="badge-gold mb-6 inline-block">Get in Touch</span>
+            <h1 class="text-4xl md:text-5xl font-serif font-bold text-slate-900 mb-6 tracking-tight">Contact Us</h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">Ready to discuss your legal
+                needs? Reach out through any of the methods below, or complete the consultation request form.</p>
+        </div>
+    </header>
+
+    <!-- Contact Options -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-20">
+
+                <!-- Email -->
+                <a href="mailto:klucerolegal@gmail.com"
+                    class="card-base p-8 text-center group hover:border-gold/50 transition-colors">
+                    <div
+                        class="w-14 h-14 bg-gold/10 rounded-xl flex items-center justify-center mx-auto mb-6 text-gold group-hover:bg-gold group-hover:text-white transition-colors">
+                        <i data-lucide="mail" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-bold text-slate-900 mb-2">Email</h3>
+                    <p class="text-slate-600 mb-4">Send us a message anytime</p>
+                    <p class="text-gold font-bold">klucerolegal@gmail.com</p>
+                </a>
+
+                <!-- Phone -->
+                <a href="tel:+5491138098088"
+                    class="card-base p-8 text-center group hover:border-gold/50 transition-colors">
+                    <div
+                        class="w-14 h-14 bg-gold/10 rounded-xl flex items-center justify-center mx-auto mb-6 text-gold group-hover:bg-gold group-hover:text-white transition-colors">
+                        <i data-lucide="phone" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-bold text-slate-900 mb-2">Phone</h3>
+                    <p class="text-slate-600 mb-4">Call during business hours (ART)</p>
+                    <p class="text-gold font-bold">+54 9 11 3809-8088</p>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/5491138098088" target="_blank"
+                    class="card-base p-8 text-center group hover:border-green-500/50 transition-colors">
+                    <div
+                        class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-6 text-green-600 group-hover:bg-green-600 group-hover:text-white transition-colors">
+                        <i data-lucide="message-circle" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-bold text-slate-900 mb-2">WhatsApp</h3>
+                    <p class="text-slate-600 mb-4">Quick responses, any timezone</p>
+                    <p class="text-green-600 font-bold">Message Us Now</p>
+                </a>
+
+            </div>
+
+            <!-- Form + Info -->
+            <div class="grid lg:grid-cols-2 gap-16 max-w-6xl mx-auto">
+
+                <!-- Consultation Form -->
+                <div>
+                    <h2 class="text-2xl font-serif font-bold text-slate-900 mb-6">Request a Free Consultation</h2>
+                    <p class="text-slate-600 mb-8">Tell us about your situation and we'll respond within 24 hours with
+                        an initial assessment and next steps.</p>
+
+                    <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-sm font-bold text-slate-700 mb-2">Full Name
+                                    *</label>
+                                <input type="text" id="name" name="name" required
+                                    class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-gold focus:ring-2 focus:ring-gold/20 outline-none transition-all">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-bold text-slate-700 mb-2">Email Address
+                                    *</label>
+                                <input type="email" id="email" name="email" required
+                                    class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-gold focus:ring-2 focus:ring-gold/20 outline-none transition-all">
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="phone" class="block text-sm font-bold text-slate-700 mb-2">Phone /
+                                    WhatsApp</label>
+                                <input type="tel" id="phone" name="phone"
+                                    class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-gold focus:ring-2 focus:ring-gold/20 outline-none transition-all">
+                            </div>
+                            <div>
+                                <label for="country" class="block text-sm font-bold text-slate-700 mb-2">Country of
+                                    Origin</label>
+                                <input type="text" id="country" name="country"
+                                    class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-gold focus:ring-2 focus:ring-gold/20 outline-none transition-all">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="service" class="block text-sm font-bold text-slate-700 mb-2">Service Needed
+                                *</label>
+                            <select id="service" name="service" required
+                                class="w-full px-4 py-3 rounded-lg border border-slate-200 text-slate-600 bg-white focus:border-gold outline-none">
+                                <option value="">Select a service...</option>
+                                <option>Immigration / Visa</option>
+                                <option>Residency (Temporary or Permanent)</option>
+                                <option>Citizenship / Naturalization</option>
+                                <option>Real Estate Transaction</option>
+                                <option>Corporate Formation / Business</option>
+                                <option>Compliance / Regulatory</option>
+                                <option>Other / Not Sure</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-bold text-slate-700 mb-2">Tell Us About Your
+                                Situation *</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Please describe your current situation, goals, and any specific questions you have..."
+                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-gold focus:ring-2 focus:ring-gold/20 outline-none transition-all resize-none"></textarea>
+                        </div>
+
+                        <div>
+                            <label for="timeline" class="block text-sm font-bold text-slate-700 mb-2">Timeline</label>
+                            <select id="timeline" name="timeline"
+                                class="w-full px-4 py-3 rounded-lg border border-slate-200 text-slate-600 bg-white focus:border-gold outline-none">
+                                <option>As soon as possible</option>
+                                <option>Within the next month</option>
+                                <option>Within 3 months</option>
+                                <option>Just exploring options</option>
+                            </select>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full btn-navy py-4 text-lg shadow-lg hover:shadow-xl transition-all">Submit
+                            Consultation Request</button>
+
+                        <p class="text-xs text-slate-500 text-center">By submitting this form, you agree to our <a
+                                href="legal/privacy.html" class="text-gold hover:underline">Privacy Policy</a>. We treat
+                            all information as confidential.</p>
+                    </form>
+                </div>
+
+                <!-- Office Info -->
+                <div>
+                    <h2 class="text-2xl font-serif font-bold text-slate-900 mb-6">Office Information</h2>
+
+                    <div class="space-y-8 mb-12">
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-gold flex-shrink-0">
+                                <i data-lucide="map-pin" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 mb-1">Address</h3>
+                                <p class="text-slate-600">Av. Corrientes 1441<br>Ciudad de Buenos Aires<br>Argentina
+                                    (C1042AAB)</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-gold flex-shrink-0">
+                                <i data-lucide="clock" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 mb-1">Office Hours</h3>
+                                <p class="text-slate-600">Monday - Friday: 9:00 AM - 6:00 PM (ART)<br>Saturday - Sunday:
+                                    Closed</p>
+                                <p class="text-sm text-slate-500 mt-1">Virtual consultations available globally across
+                                    time zones.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-gold flex-shrink-0">
+                                <i data-lucide="video" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 mb-1">Virtual Meetings</h3>
+                                <p class="text-slate-600">We conduct consultations via Zoom, Google Meet, or phone. No
+                                    need to be in Buenos Aires.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map -->
+                    <div class="aspect-video bg-slate-100 rounded-2xl overflow-hidden mb-8">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016881396699!2d-58.38719!3d-34.604332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf7e5c3329%3A0x7b6a8e0c3c1b7c1a!2sAv.%20Corrientes%201441%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1640000000000!5m2!1sen!2sar"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            class="w-full h-full"></iframe>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="bg-slate-50 p-6 rounded-xl">
+                        <h3 class="font-bold text-slate-900 mb-4">Helpful Resources</h3>
+                        <ul class="space-y-3">
+                            <li><a href="faq.html"
+                                    class="flex items-center gap-2 text-slate-600 hover:text-gold transition-colors"><i
+                                        data-lucide="help-circle" class="w-4 h-4"></i> Frequently Asked Questions</a>
+                            </li>
+                            <li><a href="resources.html"
+                                    class="flex items-center gap-2 text-slate-600 hover:text-gold transition-colors"><i
+                                        data-lucide="book-open" class="w-4 h-4"></i> Immigration Guides</a></li>
+                            <li><a href="services/immigration.html"
+                                    class="flex items-center gap-2 text-slate-600 hover:text-gold transition-colors"><i
+                                        data-lucide="globe" class="w-4 h-4"></i> Visa Options Overview</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 pt-16 pb-8 text-sm">
+        <div class="container mx-auto px-6">
+            <div
+                class="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-slate-600">
+                <p>&copy; 2026 Lucero Legal. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="legal/privacy.html" class="hover:text-slate-400">Privacy</a>
+                    <a href="legal/terms.html" class="hover:text-slate-400">Terms</a>
+                    <a href="legal/disclaimer.html" class="hover:text-slate-400">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/5491138098088" target="_blank" class="floating-whatsapp" title="Chat on WhatsApp">
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <script>
+        lucide.createIcons();
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const close = document.getElementById('close-menu');
+        function toggle() { menu.classList.toggle('translate-x-full'); document.body.classList.toggle('overflow-hidden'); }
+        btn.addEventListener('click', toggle); close.addEventListener('click', toggle);
+    </script>
+</body>
+
+</html>
